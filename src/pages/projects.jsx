@@ -5,7 +5,7 @@ function Projects() {
     return (
         <div id='projects' className='container'>
             <div className="text">
-                <h1>These are some of my projects.</h1>
+                <h1>These are some of my projects. </h1>
             </div>
             <MyCard img={data[0].image} title={data[0].title} description={data[0].description} link={data[0].link} />
             <MyCard img={data[1].image} title={data[1].title} description={data[1].description} link={data[1].link} />
