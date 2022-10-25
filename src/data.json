@@ -8,13 +8,13 @@
     {
         "title": "Poolit",
         "description": "Polit is software for managing the lesson schedule and presenting it to the company's management. For this I used an open source diary library called DayPilot. When you click on a certain time in the calendar, a Form window opens where you enter the data for that event, the data is transferred and checked on the server, when all the data is correct, the event is saved in the database and then displayed in the calendar.",
-        "image": "/photos/Poolit.png",
+        "image": "https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/Poolit.png?raw=true",
         "link": "https://github.com/OriyaHajbi/poolit"
     },
     {
         "title": "MyTrips",
         "description": "This website was built as part of a course where I was asked to tell about 5 beautiful countries I visited. I told about the beautiful countries I've been to in South and Central America. In addition, I added a link to a YouTube video that shows my trip in full.",
-        "image": "/photos/myTrips.png",
+        "image": "https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/myTrips.png?raw=true",
         "link": "https://github.com/OriyaHajbi/MyTrips---web3",
         "youtube": "https://youtu.be/4Uw5wzx_WvE"
     }

@@ -17,7 +17,7 @@ function AboutMe() {
                 />
             </div>
             <div className='imgaboutme' >
-                <img src='/photos/me.jpeg' alt='Oriya' />
+                <img src='https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/me.jpeg?raw=true' alt='Oriya' />
             </div>
 
             <div className='aboutText'>
@@ -30,7 +30,6 @@ function AboutMe() {
                 </span>
             </div>
         </div>
-
 
     );
 }

@@ -7,7 +7,7 @@ function NavBar() {
     return <div>
         <nav className="navbar navbar-dark" >
             <div>
-                <img className="imglogo" src='/photos/me.jpeg' />
+                <img className="imglogo" src='https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/me.jpeg?raw=true' />
                 <a className="navbar-brand namelogo" href="#aboutme">Oriya Hajbi</a>
             </div>
             <div class=" navbritems" >

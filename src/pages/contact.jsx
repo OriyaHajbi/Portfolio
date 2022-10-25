@@ -39,7 +39,7 @@ function Contact() {
             <FloatingWhatsApp
                 phoneNumber='+972526898575'
                 accountName='Oriya Hajbi'
-                avatar='/photos/me.jpeg'
+                avatar='https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/me.jpeg?raw=true'
                 statusMessage='Full Stack Developer'
                 chatMessage="Hello there 😀, Let's talk!."
                 allowClickAway="true"
