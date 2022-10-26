@@ -4,6 +4,7 @@ import AboutMe from './aboutme';
 import Contact from './contact';
 import Projects from './projects'
 import Footer from '../compenents/Footer';
+import "../css/style.css";
 function App() {
   return (
     <div>
