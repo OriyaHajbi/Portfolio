@@ -1,10 +1,11 @@
 import React from 'react';
 import Typed from "react-typed"
+import "../css/aboutme.css";
 
-function AboutMe() {
+function AboutMe(props) {
     return (
-        <div id='aboutme' className='container'>
-            <div className="animText">
+        <div id='aboutme' className={` ${props.modeClass}backgroundModeaboutme`}>
+            <div className={`animText ${props.modeClass}aboutme`}>
                 <Typed
                     strings={[
                         "I'm Oriya Hajbi.",
@@ -20,7 +21,7 @@ function AboutMe() {
                 <img src='https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/me.jpeg?raw=true' alt='Oriya' />
             </div>
 
-            <div className='aboutText'>
+            <div className={`aboutText ${props.modeClass}aboutme`}>
                 <span>
                     <p>Hello, my name is Oriya Hajbi and i'm 27 years old. </p>
                     <p>I'm Computer Science graduate from Afeka - Tel-Aviv Academic Collage of Engineering.</p>

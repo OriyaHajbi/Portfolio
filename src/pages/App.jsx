@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import NavBar from "../compenents/navbar"
 import AboutMe from './aboutme';
 import Contact from './contact';
@@ -6,14 +6,18 @@ import Projects from './projects'
 import Footer from '../compenents/Footer';
 import "../css/style.css";
 function App() {
+  const [isNightMode, setMode] = useState(true);
+
+  const mode = isNightMode ? "night" : "day";
+
   return (
-    <div>
-      <NavBar />
+    <div className={`${mode}backgroundModeapp`}>
+      <NavBar modeFunc={setMode} modeBool={isNightMode} modeClass={mode} />
       <div className='main'>
-        <AboutMe />
-        <Projects />
+        <AboutMe modeClass={mode} />
+        <Projects modeClass={mode} />
         <Contact />
-        <Footer />
+        <Footer modeClass={mode} />
       </div>
     </div>
 

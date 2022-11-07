@@ -1,0 +1,43 @@
+.navbarItem {
+    margin-left: 10px;
+}
+
+.navbar.navbar-dark {
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.imglogo {
+    width: 50px;
+}
+
+.namelogo {
+    margin-left: 10px;
+}
+
+li.nav-item.active {
+    position: unset;
+    margin-top: 8px;
+}
+
+ul.navbar-nav.text-right {
+    display: -webkit-inline-box;
+    margin-right: 20px;
+}
+
+div.sc-bcXHqe.eJLJkT {
+    position: -webkit-sticky;
+    margin-left: 8px;
+}
+
+.nightnavbar {
+    color: white;
+    /* background-color: black; */
+}
+
+.daynavbar {
+    color: black;
+    background-color: #3AAFA9;
+}

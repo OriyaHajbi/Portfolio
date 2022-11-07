@@ -1,0 +1,29 @@
+.titleup {
+    position: relative;
+    top: 20px;
+}
+
+.titlebottom {
+    position: relative;
+    bottom: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.nightprojects {
+    color: white;
+}
+
+.dayprojects {
+    color: black;
+}
+
+.nightbackgroundModeprojects {
+    background-color: #517e98;
+}
+
+.daybackgroundModeprojects {
+    background-color: #DEF2F1;
+}

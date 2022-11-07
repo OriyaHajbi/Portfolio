@@ -1,0 +1,44 @@
+.mycard {
+    align-items: center;
+    margin: 5%;
+}
+
+.titleproject {
+    color: blue;
+}
+
+.imgandtextproject {
+    text-align: center;
+}
+
+.projectimg {
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+.projecttext {
+    text-align: justify;
+    margin: 5% 5%;
+    /* background-color: rgba(101,
+            157,
+            189, 0.5); */
+}
+
+.nightmycard {
+    color: white;
+}
+
+.daymycard {
+    color: black;
+}
+
+.nightbackgroundModemycard {
+    background-color: #659DBD;
+}
+
+.daybackgroundModemycard {
+    background-color: #DEF2F1;
+}

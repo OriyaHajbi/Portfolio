@@ -1,11 +1,12 @@
 import { Body1 } from '@fluentui/react-components';
 import { Card, CardHeader } from '@fluentui/react-components/unstable';
+import "../css/mycard.css";
 
 
 function MyCard(props) {
 
     return (
-        <div className='mycard'>
+        <div className={`mycard ${props.modeClass}mycard`}>
             <Card>
                 <CardHeader
                     header={

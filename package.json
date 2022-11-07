@@ -4,8 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@fluentui/react-components": "^9.5.1",
     "@fluentui/react-icons": "^2.0.185",
+    "@mui/material": "^5.10.12",
+    "@mui/styled-engine-sc": "^5.10.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,12 +18,14 @@
     "gh-pages": "^4.0.0",
     "material-ui": "^0.20.2",
     "react": "^18.2.0",
+    "react-day-and-night-toggle": "^1.0.18",
     "react-dom": "^18.2.0",
     "react-floating-whatsapp": "^5.0.4",
     "react-icons": "^4.2.0",
     "react-scripts": "5.0.1",
     "react-typed": "^1.2.0",
     "react-whatsapp": "^0.3.0",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
