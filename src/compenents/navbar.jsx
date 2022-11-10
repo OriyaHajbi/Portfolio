@@ -60,7 +60,7 @@ function NavBar(props) {
 
 
     return <div>
-        <nav className={`navbar ${props.modeClass}navbar`} >
+        <nav className={`navbar navbar-top ${props.modeClass}navbar`} >
             <div>
                 <img className="imglogo" src='https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/me.jpeg?raw=true' alt="Oriya Hajbi" />
                 <a className={`navbar-brand namelogo ${props.modeClass}`} href="#aboutme">Oriya Hajbi</a>

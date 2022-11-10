@@ -9,6 +9,13 @@
     width: 100%;
 }
 
+.navbar-top {
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
 .imglogo {
     width: 50px;
 }
