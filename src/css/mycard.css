@@ -4,7 +4,16 @@
 }
 
 .titleproject {
-    color: blue;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+.daytitleproject {
+    color: #DEF2F1;
+}
+
+.nighttitleproject {
+    color: #659DBD;
 }
 
 .imgandtextproject {
@@ -12,8 +21,8 @@
 }
 
 .projectimg {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: 500px;
     border-radius: 5%;
     text-align: center;
 
@@ -21,7 +30,9 @@
 
 .projecttext {
     text-align: justify;
-    margin: 5% 5%;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin: 5% 0;
     /* background-color: rgba(101,
             157,
             189, 0.5); */
@@ -35,10 +46,23 @@
     color: black;
 }
 
+.nightborder {
+    color: #517e98;
+}
+
+.dayborder {
+    color: #DEF2F1;
+}
+
+
 .nightbackgroundModemycard {
     background-color: #659DBD;
 }
 
 .daybackgroundModemycard {
     background-color: #DEF2F1;
+}
+
+a {
+    color: #15b1ef;
 }

@@ -8,6 +8,11 @@
     bottom: 20px;
 }
 
+.title {
+    font-style: italic;
+    font-size: 4rem;
+}
+
 .text {
     text-align: center;
 }

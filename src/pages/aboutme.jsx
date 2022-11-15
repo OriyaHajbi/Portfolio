@@ -4,7 +4,7 @@ import "../css/aboutme.css";
 
 function AboutMe(props) {
     return (
-        <div id='aboutme' className={` ${props.modeClass}backgroundModeaboutme`}>
+        <div id='aboutme' className={`sizePage ${props.modeClass}backgroundModeaboutme`}>
             <div className={`animText ${props.modeClass}aboutme`}>
                 <Typed
                     strings={[

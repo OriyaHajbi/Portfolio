@@ -1,7 +1,13 @@
+.sizePage {
+    height: 1020px;
+}
+
 .animText {
-    font-size: 50px;
+    font-size: 4rem;
     text-align: center;
     margin-top: 5%;
+    /* font-family: Monospace; */
+    font-family: 'Nerko One', cursive;
 }
 
 .imgaboutme {
@@ -10,7 +16,8 @@
 
 .aboutText {
     margin-left: 8%;
-    font-size: 25px;
+    font-style: italic;
+    font-size: 2.5rem;
     text-align: left;
 }
 

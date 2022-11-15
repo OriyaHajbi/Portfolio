@@ -6,12 +6,12 @@ import "../css/mycard.css";
 function MyCard(props) {
 
     return (
-        <div className={`mycard ${props.modeClass}mycard`}>
+        <div className={`mycard  ${props.modeClass}border`}>
             <Card>
                 <CardHeader
                     header={
                         <Body1>
-                            <h1 className='titleproject'><a href={props.link}>{props.title}</a></h1>
+                            <h1 className={`titleproject ${props.modeClass}titleproject`}><a href={props.link}>{props.title}</a></h1>
                         </Body1>
                     }
                 />
@@ -24,7 +24,7 @@ function MyCard(props) {
                             /></a>
                         </div>
 
-                        <div className='projecttext'>
+                        <div className={`projecttext ${props.modeClass}mycard`} >
                             <div className='col'>
                                 <span>
                                     {props.description}
@@ -57,9 +57,9 @@ function MyCard(props) {
 
 
 
-            </Card>
+            </Card >
 
-        </div>
+        </div >
 
 
     );

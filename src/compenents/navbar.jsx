@@ -5,6 +5,7 @@ import "../css/navbar.css";
 // import Switch, { SwitchProps } from '@mui/material/Switch';
 
 import DayNightToggle from 'react-day-and-night-toggle'
+import { Avatar } from '@mui/material';
 
 
 function NavBar(props) {
@@ -61,8 +62,8 @@ function NavBar(props) {
 
     return <div>
         <nav className={`navbar navbar-top ${props.modeClass}navbar`} >
-            <div>
-                <img className="imglogo" src='https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/me.jpeg?raw=true' alt="Oriya Hajbi" />
+            <div className="logo">
+                <Avatar alt="OriyaHajbi" src='https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/me.jpeg?raw=true' sx={{ width: 56, height: 56 }} />
                 <a className={`navbar-brand namelogo ${props.modeClass}`} href="#aboutme">Oriya Hajbi</a>
             </div>
             <div class=" navbritems" >
@@ -83,7 +84,7 @@ function NavBar(props) {
                         <a className={`navbarItem ${props.modeClass}navbar`} href="#projects">Projects</a>
                     </li>
                     <li class="nav-item active">
-                        <a className={`navbarItem ${props.modeClass}navbar`} href="#contact">Contact</a>
+                        <a className={`navbarItem last ${props.modeClass}navbar`} href="#contact">Contact</a>
                     </li>
                     <li class="nav-item active">
                         <DayNightToggle
