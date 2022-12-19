@@ -4,14 +4,15 @@ import "../css/mycard.css";
 
 
 function MyCard(props) {
-
     return (
         <div className={`mycard  ${props.modeClass}border`}>
             <Card>
                 <CardHeader
                     header={
                         <Body1>
-                            <h1 className={`titleproject ${props.modeClass}titleproject`}><a href={props.link}>{props.title}</a></h1>
+                            <h1 className={`titleproject ${props.modeClass}titleproject`}><a href={props.githubLink}>{props.title}</a></h1>
+                            {props.projectLink !== undefined ? <div className={`linkText ${props.modeClass}mycard`}><a href={props.projectLink}>Link to project </a></div> : <></>}
+
                         </Body1>
                     }
                 />

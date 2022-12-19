@@ -9,9 +9,10 @@ function Projects(props) {
             <div className={`${props.modeClass}projects`}>
                 <h1 className='title titleup'>These are some of my projects. </h1>
             </div>
-            <MyCard img={data[0].image} title={data[0].title} description={data[0].description} link={data[0].link} modeClass={props.modeClass} />
-            <MyCard img={data[1].image} title={data[1].title} description={data[1].description} link={data[1].link} modeClass={props.modeClass} />
-            <MyCard img={data[2].image} title={data[2].title} description={data[2].description} link={data[2].link} youtubeLink={data[2].youtube} modeClass={props.modeClass} />
+            <MyCard img={data[0].image} title={data[0].title} description={data[0].description} githubLink={data[0].githubLink} modeClass={props.modeClass} projectLink={data[0].projectLink} />
+            <MyCard img={data[1].image} title={data[1].title} description={data[1].description} githubLink={data[1].githubLink} modeClass={props.modeClass} />
+            <MyCard img={data[2].image} title={data[2].title} description={data[2].description} githubLink={data[2].githubLink} modeClass={props.modeClass} />
+            <MyCard img={data[3].image} title={data[3].title} description={data[3].description} githubLink={data[3].githubLink} youtubeLink={data[3].youtube} modeClass={props.modeClass} />
             <div className={`${props.modeClass}projects`}>
                 <h1 className='title titlebottom'>Wait for more projects!. </h1>
             </div>

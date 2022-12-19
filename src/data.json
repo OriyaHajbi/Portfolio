@@ -1,27 +1,28 @@
 [
     {
         "title": "Shopping Cart",
-        "description": "",
-        "image": "https://github.com/OriyaHajbi/MetacentralandProject/raw/main/photos/homePage.jpeg?raw=true",
-        "link": "https://github.com/OriyaHajbi/MetacentralandProject"
+        "description": "A shopping basket is a site for buying products online. The site was built using React, NodeJS and MongoDB. With the help of Reduce, I created the entire store management and product storage.At the beginning of the program, an API call is made to FakeStoreAPI and from there I import all the products, after that I make the desired changes on them and save them in the DB.",
+        "image": "https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/ShoppingCart.png?raw=true",
+        "githubLink": "https://github.com/OriyaHajbi/ShoppingCart",
+        "projectLink": "https://shoppingcartserver.onrender.com/"
     },
     {
         "title": "MetaCentraland",
         "description": "Metacentraland is a map of 50*50 lands. Each land can be a Park, Road or NFT. Parks and Roads aren't for sale. NFT is for sale. Each NFT have attributes {ownerId, row, col, landId, game, cost, isForSale}. For see the map the user must to register and than to login. In the register page the user can choose if he is Seller/Buyer or Guest. Seller/Buyer reacive 1000$ and they can start to buy and sell lands. Guest cannot buy/sell lands but he can to play in game in the land.",
         "image": "https://github.com/OriyaHajbi/MetacentralandProject/raw/main/photos/homePage.jpeg?raw=true",
-        "link": "https://github.com/OriyaHajbi/MetacentralandProject"
+        "githubLink": "https://github.com/OriyaHajbi/MetacentralandProject"
     },
     {
         "title": "Poolit",
         "description": "Polit is software for managing the lesson schedule and presenting it to the company's management. For this I used an open source diary library called DayPilot. When you click on a certain time in the calendar, a Form window opens where you enter the data for that event, the data is transferred and checked on the server, when all the data is correct, the event is saved in the database and then displayed in the calendar.",
         "image": "https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/Poolit.png?raw=true",
-        "link": "https://github.com/OriyaHajbi/poolit"
+        "githubLink": "https://github.com/OriyaHajbi/poolit"
     },
     {
         "title": "MyTrips",
         "description": "This website was built as part of a course where I was asked to tell about 5 beautiful countries I visited. I told about the beautiful countries I've been to in South and Central America. In addition, I added a link to a YouTube video that shows my trip in full.",
         "image": "https://github.com/OriyaHajbi/Portfolio/blob/master/public/photos/myTrips.png?raw=true",
-        "link": "https://github.com/OriyaHajbi/MyTrips---web3",
+        "githubLink": "https://github.com/OriyaHajbi/MyTrips---web3",
         "youtube": "https://youtu.be/4Uw5wzx_WvE"
     }
 ]

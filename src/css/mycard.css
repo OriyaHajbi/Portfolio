@@ -38,6 +38,15 @@
             189, 0.5); */
 }
 
+.linkText {
+    text-align: justify;
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-left: 90%;
+    display: inline-flex;
+
+}
+
 .nightmycard {
     color: white;
 }
